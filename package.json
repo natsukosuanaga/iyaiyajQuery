@@ -1,0 +1,24 @@
+{
+  "name": "iyaiyajquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natsukosuanaga/iyaiyajQuery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natsukosuanaga/iyaiyajQuery/issues"
+  },
+  "homepage": "https://github.com/natsukosuanaga/iyaiyajQuery#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jquery-validation": "^1.19.4"
+  }
+}
