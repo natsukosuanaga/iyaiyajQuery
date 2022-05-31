@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sample.css">
     <title>Document</title>
 </head>
 <body>
+     <!-- TODO  入力されたら次を表示  -->
+     <!-- TODO  かな自動入力  -->
+     <!-- TODO  ZipServer  -->
+     <!-- TODO  自動フォーカス  -->
     <form id="form_id" method="post">
+        <label>名前</label>
+        <input type="text" name="text_name_1" />
+        <p class="OK">OK</p>
+        <p class="error_1"></p>
+
+        <label>ナマエ</label>
+        <input type="text" name="text_name_2" id="text_name_2"/>
+        <p class="error_2"></p>
+
+        <label>郵便番号</label>
+        <button>郵便番号から住所検索</button>
         <input type="text" name="text_name" />
+        <p class="error"></p>
+
+        <label>都道府県</label>
+        <input type="text" name="text_name" />
+        <p class="error"></p>
+
+        <label>市区郡町村</label>
+        <input type="text" name="text_name" />
+        <p class="error"></p>
+
+        <label>番地</label>
+        <input type="text" name="text_name" />
+        <p class="error"></p>
+
         <button type="submit">送信</button>
-      </form>
+    </form>
 
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/jquery-validation/dist/jquery.validate.min.js"></script>

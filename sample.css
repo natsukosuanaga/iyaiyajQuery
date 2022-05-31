@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+}
+
+button {
+  display: block;
+}
+
+p.error {
+  color: red;
+}
+
+.OK {
+  display: none;
+}
